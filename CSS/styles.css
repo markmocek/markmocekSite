@@ -1,0 +1,60 @@
+html {
+    background-image: url('backgroundImg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.wrapper0 {
+    width: 60%;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 10px 10px 5px black;
+    border: 1px solid #000000;
+    padding: 20px;
+}
+
+.mt10 {
+    margin-top: 15px;
+}
+
+a { 
+    color: black;
+    text-decoration: none;
+}
+
+a:hover, a:focus{
+   text-decoration: underline;
+}
+
+.title {
+    height: 100px;
+    width: 60%;
+    border: solid;
+    border-color: white;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.menuNavigation {
+    min-height: 100px;
+    min-width: 70%;
+    border: solid;
+    border-color: white;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.menu {
+    border:solid;
+    border-style:outset;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+}

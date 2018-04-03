@@ -1,0 +1,36 @@
+table {
+    margin-right: auto;
+    margin-left: auto;
+}
+.title2 {
+    height: 50px;
+    width: 60%;
+    border: solid;
+    border-color: white;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.playerMenuNavigation {
+    min-height: 100px;
+    min-width: 70%;
+    border: solid;
+    border-color: white;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.playerMenu {
+    border:solid;
+    border-style:outset;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+}
