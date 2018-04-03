@@ -1,2 +1,4 @@
 # markmocekSite
-PersonalWebSite
+Personal Web Site
+
+- Currently used to give players in D&D campaign information about the fantasy world.
