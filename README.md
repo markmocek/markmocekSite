@@ -1,4 +1,7 @@
 # markmocekSite
 Personal Web Site
 
-- Landing page with link to projects.
+- Landing page
+- Resume
+- Link to projects
+- Blog Link
