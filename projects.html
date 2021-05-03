@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<title>Projects</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+
+<div class="w3-bar w3-theme">
+  <a href="./index.html" class="w3-bar-item w3-button w3-padding-16">Home</a>
+  <a href="./blog.html" class="w3-bar-item w3-button w3-padding-16">Blog</a>
+  <a href="./projects.html" class="w3-bar-item w3-button w3-padding-16">Projects</a>
+  <a href="./hire.html" class="w3-bar-item w3-button w3-padding-16">Hire</a>
+</div>
+
+<style>
+  body,h1,h2,h3,h4,h5 {font-family: "Roboto", sans-serif}
+  .w3-quarter:hover > div {
+      border-style: solid;
+  }
+  .w3-quarter {
+    padding: 5px;
+  }
+  .hidden {
+     display:none;
+}
+</style>
+<body class="w3-light-grey">
+
+<!-- w3-content defines a container for fixed size centered content,
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1400px">
+
+  <div class="w3-row-padding w3-center w3-margin-top">
+    <h1><b>Projects</b></h1>
+  </div>
+
+  <div class="w3-row-padding w3-center w3-margin-top">
+    <div class="w3-quarter" onclick="toggle('proj_1')">
+      <div class="w3-card w3-container" style="min-height:460px">
+      <h3>Responsive</h3><br>
+      <i class="fa fa-android w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
+      <p>Built-in responsiveness</p>
+      <p>Mobile first fluid grid</p>
+      <p>Fits any screen sizes</p>
+      <p>PC Tablet and Mobile</p>
+      </div>
+    </div>
+
+    <div class="w3-quarter" onclick="toggle('proj_2')">
+      <div class="w3-card w3-container" style="min-height:460px">
+      <h3>Standard CSS</h3><br>
+      <i class="fa fa-balance-scale w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
+      <p>Standard CSS only</p>
+      <p>Easy to learn</p>
+      <p>No need for jQuery</p>
+      <p>No JavaScript library</p>
+      </div>
+    </div>
+
+    <div class="w3-quarter" onclick="toggle('proj_3')">
+      <div class="w3-card w3-container" style="min-height:460px">
+      <h3>Design</h3><br>
+      <i class="fa fa-bolt w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
+      <p>Paper like design</p>
+      <p>Bold colors and shadows</p>
+      <p>Equal across platforms</p>
+      <p>Equal across devices</p>
+      </div>
+    </div>
+
+    <div class="w3-quarter"  onclick="toggle('proj_4')">
+      <div class="w3-card w3-container" style="min-height:460px">
+      <h3>Design</h3><br>
+      <i class="fa fa-bug w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
+      <p>Paper like design</p>
+      <p>Bold colors and shadows</p>
+      <p>Equal across platforms</p>
+      <p>Equal across devices</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="proj_1" class="w3-container w3-animate-opacity hidden">
+    <h2>Proj_1</h2>
+  </div>
+
+  <div id="proj_2" class="w3-container w3-animate-opacity hidden">
+    <h2>Proj_2</h2>
+  </div>
+
+  <div id="proj_3" class="w3-container w3-animate-opacity hidden">
+    <h2>Proj_3</h2>
+  </div>
+
+  <div id="proj_4" class="w3-container w3-animate-opacity hidden">
+    <h2>Proj_4</h2>
+  </div>
+</div>
+
+<script>
+
+  function toggle(id) {
+    document.getElementById("proj_1").classList.add("hidden");
+    document.getElementById("proj_2").classList.add("hidden");
+    document.getElementById("proj_3").classList.add("hidden");
+    document.getElementById("proj_4").classList.add("hidden");
+    document.getElementById(id).classList.remove("hidden");
+  }
+
+</script>
+
+</body>
+</html>
