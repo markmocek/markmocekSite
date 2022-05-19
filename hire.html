@@ -16,172 +16,183 @@
 </div>
 
 <style>
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+  html,
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Roboto", sans-serif
+  }
 </style>
+
 <body class="w3-light-grey">
 
-<!-- Page Container -->
-<div class="w3-content w3-margin-top" style="max-width:1400px;">
+  <!-- Page Container -->
+  <div class="w3-content w3-margin-top" style="max-width:1400px;">
 
-  <!-- The Grid -->
-  <div class="w3-row-padding">
+    <!-- The Grid -->
+    <div class="w3-row-padding">
 
-    <!-- Left Column -->
-    <div class="w3-third">
+      <!-- Left Column -->
+      <div class="w3-third">
 
-      <div class="w3-white w3-text-grey w3-card-4">
-        <div class="w3-display-container">
-          <img src="./images/HeadShot3_mini.jpg" style="width:100%" alt="Avatar">
-          <div class="w3-display-bottomleft w3-container w3-text-black">
-            <h2 style="color: white;  -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: black;">Mark Mocek</h2>
+        <div class="w3-white w3-text-grey w3-card-4">
+          <div class="w3-display-container">
+            <img src="./images/HeadShot3_mini.jpg" style="width:100%" alt="Avatar">
+            <div class="w3-display-bottomleft w3-container w3-text-black">
+              <h2 style="color: white;  -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: black;">Mark Mocek</h2>
+            </div>
+          </div>
+          <div class="w3-container">
+            <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Software Engineer</p>
+            <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>San Jose, CA</p>
+            <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>mocekmark@gmail.com</p>
+            <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>(318)595-1114</p>
+            <p><i class="fa fa-download fa-fw w3-margin-right w3-large w3-text-teal"></i><button type="button" onclick="download()">Download Resumé</button></p>
+            <hr>
+            <p class="w3-large w3-text-theme"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
+            <p>Python &emsp; C++ &emsp; Java &emsp; JavaScript</p>
+            <p>SQL &emsp; Firebase &emsp; MongoDB</p>
+            <p>Angular &emsp; Scrum &emsp; Agile Method &emsp;</p>
+            <hr>
+            <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Links</b></p>
+            <p><a href="https://www.linkedin.com/in/mark-mocek-46082612a/"><i class="fa fa-linkedin fa-fw w3-margin-right w3-large w3-text-teal"></i>LinkedIn</a></p>
+            <p><a href="https://www.github.com/markmocek/"><i class="fa fa-github fa-fw w3-margin-right w3-large w3-text-teal"></i>GitHub</a></p>
+          </div>
+        </div><br>
+
+        <!-- End Left Column -->
+      </div>
+
+      <!-- Right Column -->
+      <div class="w3-twothird">
+
+        <div class="w3-container w3-card w3-white w3-margin-bottom">
+          <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Monterey Bay Aquarium Research Institute</b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sept 2018 - Dec 2018</span></h6>
+            <p>
+              Worked with a small team to begin bringing machine learning to the
+              <a class="w3-text-teal" href="https://github.com/markmocek/stoqs">STOQS</a> data set.
+              Used Python, MongoDB, and Jupyter Notebook to apply supervised
+              grouping to data collected by autonomous underwater vehicles.
+            </p>
+            <hr>
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>RevIt</b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Dec 2017 - Jan 2018</h6>
+            <p>
+              Built a point of service application that assisted mechanics in interfacing
+              with customers and documenting work. Used JavaScript and a SQL database to create
+              a concept of the application to determine if it was viable.
+            </p>
+            <hr>
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Personal Projects</b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2016 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
+            <p>
+              Click on the Projects tab in the navigation bar or take a look
+              <a href="./projects.html">here.</a>
+            </p>
+            <hr>
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Volunteer Programming Tutor</b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2018 - May 2018</h6>
+            <p>Worked with elementary school children, at the Salinas United Methodist Church,
+              where I taught the basics of Python programming and general computer knowledge.
+            </p>
+            <br>
           </div>
         </div>
-        <div class="w3-container">
-          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Software Engineer</p>
-          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>San Jose, CA</p>
-          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>mocekmark@gmail.com</p>
-          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>(318)595-1114</p>
-          <p ><i class="fa fa-download fa-fw w3-margin-right w3-large w3-text-teal"></i><button type="button" onclick="download()">Download Resumé</button></p>
-          <hr>
-          <p class="w3-large w3-text-theme"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
-          <p>Python &emsp; C++ &emsp; Java &emsp; JavaScript</p>
-          <p>SQL &emsp; Firebase &emsp; MongoDB</p>
-          <p>Angular &emsp; Scrum &emsp; Agile Method &emsp;</p>
-          <hr>
-          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Links</b></p>
-          <p><a href="https://www.linkedin.com/in/mark-mocek-46082612a/"><i class="fa fa-linkedin fa-fw w3-margin-right w3-large w3-text-teal"></i>LinkedIn</a></p>
-          <p><a href="https://www.github.com/markmocek/"><i class="fa fa-github fa-fw w3-margin-right w3-large w3-text-teal"></i>GitHub</a></p>
-        </div>
-      </div><br>
 
-    <!-- End Left Column -->
+        <div class="w3-container w3-card w3-white">
+          <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>San Jose State University</b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Start 2022</h6>
+            <p>Master's Degree</p>
+            <hr>
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>California State University Monterey Bay</b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2016 - 2018</h6>
+            <p>Bachelor's Degree - Computer Science</p>
+            <hr>
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Evergreen Valley College</b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2014 - 2016</h6>
+            <p>General Education</p>
+          </div>
+        </div>
+
+        <div class="w3-container w3-card w3-white w3-margin-top">
+          <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Employment</h2>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Lead Property Serviceman</b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Nov 2019 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
+            <p>
+              I am currently working on renovating and maintaining apartment units.
+              I restock supplies to complete maintenance requests and am responsible for
+              identifying and resolving any issues that present themselves. I have
+              to quickly learn new skills and display proficiency with those skills.
+            </p>
+            <hr>
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Family/DoorDash</b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>June 2019 - Nov 2019</h6>
+            <p>
+              Family played a large part in my college success. Once I had graduated,
+              I spent some time working with them to repay their contributions.
+            </p>
+            <hr>
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Travel/DoorDash</b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2019 - May 2019</h6>
+            <p>
+              Traveled to family around the US.
+            </p>
+            <hr>
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Self Employed</b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2014 - 2018</h6>
+            <p>
+              As a self employed balloon artist, I had to manage personal inventory
+              as well as acquiring and retaining customers. I also had to communicate
+              clearly with clients and ascertain information about their event so that
+              I could provide the appropriate services and bring the proper supplies.
+              This gave me ample practice dealing with clients that did not always know
+              exactly what they wanted.
+            </p>
+            <br>
+          </div>
+        </div>
+
+        <!-- End Right Column -->
+      </div>
+
+      <!-- End Grid -->
     </div>
 
-    <!-- Right Column -->
-    <div class="w3-twothird">
-
-      <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Monterey Bay Aquarium Research Institute</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sept 2018 - Dec 2018</span></h6>
-          <p>
-            Worked with a small team to begin bringing machine learning to the
-            <a class="w3-text-teal" href="https://github.com/markmocek/stoqs">STOQS</a> data set.
-            Used Python, MongoDB, and Jupyter Notebook to apply supervised
-            grouping to data collected by autonomous underwater vehicles.
-          </p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>RevIt</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Dec 2017 - Jan 2018</h6>
-          <p>
-            Built a point of service application that assisted mechanics in interfacing
-            with customers and documenting work. Used JavaScript and a SQL database to create
-            a concept of the application to determine if it was viable.
-          </p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Personal Projects</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2016 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
-          <p>
-            Click on the Projects tab in the navigation bar or take a look
-            <a href="./projects.html">here.</a>
-          </p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Volunteer Programming Tutor</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2018 - May 2018</h6>
-          <p>Worked with elementary school children, at the Salinas United Methodist Church,
-            where I taught the basics of Python programming and general computer knowledge.
-          </p>
-          <br>
-        </div>
-      </div>
-
-      <div class="w3-container w3-card w3-white">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>San Jose State University</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Start 2022</h6>
-          <p>Master's Degree</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>California State University Monterey Bay</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2016 - 2018</h6>
-          <p>Bachelor's Degree - Computer Science</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Evergreen Valley College</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2014 - 2016</h6>
-          <p>General Education</p>
-        </div>
-      </div>
-
-      <div class="w3-container w3-card w3-white w3-margin-top">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Employment</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Lead Property Serviceman</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Nov 2019 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
-          <p>
-            I am currently working on renovating and maintaining apartment units.
-            I restock supplies to complete maintenance requests and am responsible for
-            identifying and resolving any issues that present themselves. I have
-            to quickly learn new skills and display proficiency with those skills.
-          </p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Family/DoorDash</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>June 2019 - Nov 2019</h6>
-          <p>
-            Family played a large part in my college success. Once I had graduated,
-            I spent some time working with them to repay their contributions.
-          </p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Travel/DoorDash</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2019 - May 2019</h6>
-          <p>
-            Traveled to family around the US.
-          </p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Self Employed</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2014 - 2018</h6>
-          <p>
-            As a self employed balloon artist, I had to manage personal inventory
-            as well as acquiring and retaining customers. I also had to communicate
-            clearly with clients and ascertain information about their event so that
-            I could provide the appropriate services and bring the proper supplies.
-            This gave me ample practice dealing with clients that did not always know
-            exactly what they wanted.
-          </p>
-          <br>
-        </div>
-      </div>
-
-    <!-- End Right Column -->
-    </div>
-
-  <!-- End Grid -->
+    <!-- End Page Container -->
   </div>
 
-  <!-- End Page Container -->
-</div>
-
-<script>
-  function download(){
-    window.open("./files/MarkMocek_Resume.pdf", "_blank")
-  }
-</script>
+  <script>
+    function download() {
+      window.open("./files/MarkMocek_Resume.pdf", "_blank")
+    }
+  </script>
 
 </body>
+
 </html>
